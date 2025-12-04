@@ -550,6 +550,7 @@ GameObject:
   m_Component:
   - component: {fileID: 503977760}
   - component: {fileID: 503977759}
+  - component: {fileID: 503977761}
   m_Layer: 0
   m_Name: BodyTrackingManager
   m_TagString: Untagged
@@ -586,6 +587,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &503977761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 503977758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0219782ff32db1448a1cb4a74ba4f13c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentHRV: 75
+  CurrentExcitementLevel: 0.3
+  EnvironmentNoiseDB: 50
+  AirQualityIndex: 50
 --- !u!1 &1043561041
 GameObject:
   m_ObjectHideFlags: 0
@@ -740,8 +757,37 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8979720131673307432, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4093900232674472537}
   m_SourcePrefab: {fileID: 100100000, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
+--- !u!1 &4093900232674472535 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8979720131673307432, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
+  m_PrefabInstance: {fileID: 4093900232674472534}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &4093900232674472536 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 6225221954465705937, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
+  m_PrefabInstance: {fileID: 4093900232674472534}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4093900232674472537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4093900232674472535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 380ace09b1d69fd4c898c3a28bb25c48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DataSimulator: {fileID: 503977761}
+  m_HeartParticles: {fileID: 4093900232674472536}
+  m_HealthyColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  m_StressColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
