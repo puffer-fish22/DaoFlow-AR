@@ -670,39 +670,7 @@ MonoBehaviour:
   m_Pose3D: 1
   m_Pose3DScaleEstimation: 0
   m_HumanBodyPrefab: {fileID: 0}
---- !u!1 &1139617380
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1139617381}
-  m_Layer: 0
-  m_Name: Camera Offset
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1139617381
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1139617380}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 469668715}
-  m_Father: {fileID: 1043561043}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &4093900232674472534
+--- !u!1001 &1122057723
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -750,44 +718,87 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6225221954465705937, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225221954465705937, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225221954465705937, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225221954465705937, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225221954465705937, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
+      propertyPath: TrailModule.colorOverLifetime.maxColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225221954465705937, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
+      propertyPath: TrailModule.colorOverLifetime.maxColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225221954465705937, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
+      propertyPath: TrailModule.colorOverLifetime.maxColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225221954465705937, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
+      propertyPath: TrailModule.colorOverLifetime.minColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225221954465705937, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
+      propertyPath: TrailModule.colorOverLifetime.minColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6225221954465705937, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
+      propertyPath: TrailModule.colorOverLifetime.minColor.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8979720131673307432, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
       propertyPath: m_Name
-      value: AnatomyTemplate
+      value: AnatomyTemplate (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8979720131673307432, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 4093900232674472537}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
---- !u!1 &4093900232674472535 stripped
+--- !u!1 &1139617380
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 8979720131673307432, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
-  m_PrefabInstance: {fileID: 4093900232674472534}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &4093900232674472536 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 6225221954465705937, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
-  m_PrefabInstance: {fileID: 4093900232674472534}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &4093900232674472537
-MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4093900232674472535}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 380ace09b1d69fd4c898c3a28bb25c48, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_DataSimulator: {fileID: 503977761}
-  m_HeartParticles: {fileID: 4093900232674472536}
-  m_HealthyColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
-  m_StressColor: {r: 1, g: 0, b: 0, a: 1}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1139617381}
+  m_Layer: 0
+  m_Name: Camera Offset
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1139617381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139617380}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 469668715}
+  m_Father: {fileID: 1043561043}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -795,5 +806,5 @@ SceneRoots:
   - {fileID: 68110849}
   - {fileID: 1043561043}
   - {fileID: 468976310}
-  - {fileID: 4093900232674472534}
   - {fileID: 503977760}
+  - {fileID: 1122057723}
