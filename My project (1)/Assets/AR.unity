@@ -366,57 +366,25 @@ MonoBehaviour:
   m_PositionInput:
     m_UseReference: 0
     m_Action:
-      m_Name: Position
+      m_Name: 
       m_Type: 0
-      m_ExpectedControlType: Vector3
-      m_Id: fc15971f-b757-4701-8b3b-dd73982c752a
+      m_ExpectedControlType: 
+      m_Id: bd6b8f4f-dec4-454f-8374-e6a59db05ff1
       m_Processors: 
       m_Interactions: 
-      m_SingletonActionBindings:
-      - m_Name: 
-        m_Id: 4dbe1a55-656c-4501-98ad-1c02fb167fb0
-        m_Path: <XRHMD>/centerEyePosition
-        m_Interactions: 
-        m_Processors: 
-        m_Groups: 
-        m_Action: Position
-        m_Flags: 0
-      - m_Name: 
-        m_Id: 83f14c4c-885e-485f-8479-c02a5b46c310
-        m_Path: <HandheldARInputDevice>/devicePosition
-        m_Interactions: 
-        m_Processors: 
-        m_Groups: 
-        m_Action: Position
-        m_Flags: 0
+      m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
   m_RotationInput:
     m_UseReference: 0
     m_Action:
-      m_Name: Rotation
+      m_Name: 
       m_Type: 0
-      m_ExpectedControlType: Quaternion
-      m_Id: 541a589c-a440-4433-9239-893d298bab54
+      m_ExpectedControlType: 
+      m_Id: 7454e954-e547-40a0-92f8-cf72c688b1fc
       m_Processors: 
       m_Interactions: 
-      m_SingletonActionBindings:
-      - m_Name: 
-        m_Id: e38b0315-ac55-4b1a-afad-df5d70efc556
-        m_Path: <XRHMD>/centerEyeRotation
-        m_Interactions: 
-        m_Processors: 
-        m_Groups: 
-        m_Action: Rotation
-        m_Flags: 0
-      - m_Name: 
-        m_Id: a06d9a47-37c6-4117-8dba-380292937c0a
-        m_Path: <HandheldARInputDevice>/deviceRotation
-        m_Interactions: 
-        m_Processors: 
-        m_Groups: 
-        m_Action: Rotation
-        m_Flags: 0
+      m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 0}
   m_TrackingStateInput:
@@ -449,6 +417,7 @@ MonoBehaviour:
     m_Interactions: 
     m_SingletonActionBindings: []
     m_Flags: 0
+  m_HasMigratedActions: 1
 --- !u!114 &469668717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -668,7 +637,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Pose2D: 1
   m_Pose3D: 1
-  m_Pose3DScaleEstimation: 0
+  m_Pose3DScaleEstimation: 1
   m_HumanBodyPrefab: {fileID: 0}
 --- !u!1001 &1122057723
 PrefabInstance:
