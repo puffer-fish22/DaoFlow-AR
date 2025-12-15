@@ -583,6 +583,7 @@ GameObject:
   - component: {fileID: 1043561043}
   - component: {fileID: 1043561042}
   - component: {fileID: 1043561044}
+  - component: {fileID: 1043561045}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -639,6 +640,20 @@ MonoBehaviour:
   m_Pose3D: 1
   m_Pose3DScaleEstimation: 1
   m_HumanBodyPrefab: {fileID: 0}
+--- !u!114 &1043561045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043561041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1760703bbd54c04488a8d10600262ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PlanePrefab: {fileID: 0}
+  m_DetectionMode: -1
 --- !u!1001 &1122057723
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -687,6 +702,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4136739391363658860, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.006
+      objectReference: {fileID: 0}
     - target: {fileID: 6225221954465705937, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
       propertyPath: InitialModule.startColor.maxColor.a
       value: 1
@@ -726,6 +745,14 @@ PrefabInstance:
     - target: {fileID: 6225221954465705937, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
       propertyPath: TrailModule.colorOverLifetime.minColor.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7865402575778877838, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.024
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187995469748894780, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.05
       objectReference: {fileID: 0}
     - target: {fileID: 8979720131673307432, guid: 0ebc232d9f5d39446b763a5d50881ba0, type: 3}
       propertyPath: m_Name
